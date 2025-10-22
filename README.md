@@ -1,5 +1,10 @@
 > 🇬🇧 English | [🇫🇷 Français](./VSCode_Pack_Formatage_Automatique_FR/README_FR.md)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
+![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
+
 # VS Code – Automatic Formatting Pack (Lite Version)
 
 A clean, ready-to-use setup for Visual Studio Code that keeps your files **organized, properly indented and consistent** — without relying on Prettier, external extensions, or custom scripts per project.
