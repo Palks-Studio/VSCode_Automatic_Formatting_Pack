@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/reddit_banniere.png" alt="VS Code Pack - Palks Studio">
+</p>
+
 > 🇬🇧 English | [🇫🇷 Français](./VSCode_Pack_Formatage_Automatique_FR/README_FR.md)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
