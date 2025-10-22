@@ -1,9 +1,9 @@
 > 🇫🇷 Français | [🇬🇧 English](../README.md)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
+![Licence MIT](https://img.shields.io/badge/Licence-MIT-green.svg)
+![Compatible VS Code](https://img.shields.io/badge/Éditeur-VS%20Code-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
-![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
+![Plateformes](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 
 # VS Code – Pack de Formatage Automatique (Version Lite)
 
