@@ -9,6 +9,12 @@
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
 ![Plateformes](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 
+<p align="center">
+  <a href="https://palks.gumroad.com/" target="_blank">
+    <img src="https://img.shields.io/badge/🔽 Télécharger%20sur-Gumroad-orange?style=for-the-badge" alt="Télécharger sur Gumroad">
+  </a>
+</p>
+
 # VS Code – Pack de Formatage Automatique (Version Lite)
 
 Un environnement **propre**, prêt à l’emploi pour Visual Studio Code, qui garde vos fichiers **alignés, bien indentés et cohérents**, sans dépendre de Prettier, d’extensions externes ou de scripts spécifiques à chaque projet.
