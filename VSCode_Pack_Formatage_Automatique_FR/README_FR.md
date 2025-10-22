@@ -1,5 +1,10 @@
 > 🇫🇷 Français | [🇬🇧 English](../README.md)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
+![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
+
 # VS Code – Pack de Formatage Automatique (Version Lite)
 
 Un environnement **propre**, prêt à l’emploi pour Visual Studio Code, qui garde vos fichiers **alignés, bien indentés et cohérents**, sans dépendre de Prettier, d’extensions externes ou de scripts spécifiques à chaque projet.
