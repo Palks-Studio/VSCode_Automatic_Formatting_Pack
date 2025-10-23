@@ -45,10 +45,10 @@ https://palks.gumroad.com/
 ## Structure du dépôt (version publique) 
 ```
 VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
-├── README_FR.md                    ← Documentation principale (publique)
-├── LICENSE.txt                  ← Licence (version anglaise)
+├── README_FR.md                 ← Documentation principale (publique)
 ├── .gitignore                   ← Exclut les fichiers privés/commerciaux
 │
+├── LICENSE                      ← Licence MIT (publique)
 ├── version_publique/
 │   ├── .vscode/
 │   │   ├── settings.json        ← Exemple minimal (UTF-8, LF, espaces visibles)
@@ -58,11 +58,17 @@ VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
 │   └── exemple_structure.txt    ← Arborescence complète du pack commercial
 │
 └── docs/
-    └── exemples/
-        ├── avant.py             ← Exemple non formaté
-        └── apres.py             ← Exemple formaté
+    └── exemples/                 ← (Optionnel) Avant / Après détaillés de formatage
+        ├── avant.py              ← Versions sales / déstructurées
+        ├── apres.py              ← Versions propres générées par le pack
+        ├── convert_lf.mp4        ← Fichiers CRLF reconvertis en LF automatiquement
+        ├── indent_clean.mp4      ← Fichiers avec indentation/marges cassées + auto-correction instantanée
+        ├── indent_python.mp4     ← Fichier Python mal indenté + correction automatique
+        └── space_clean.mp4       ← Fichiers cassé volontairement + analyse marges + auto-correction instantanée
 ```
 
+
+Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4, etc.) sont volontairement inclus dans la version Lite : ce sont des démonstrations réelles du pack complet, pour montrer ce qu’il est capable de faire.
 
 ---
 
@@ -79,7 +85,6 @@ VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
 - `INSTALL.md` — guide d’installation et d’utilisation  
 - `README_COMMERCIAL.md` — présentation du produit (version Gumroad)  
 - `docs/README_TECHNIQUE.md` — notes techniques / maintenance  
-- Fichiers de démonstration : `demo.py`, `demo.js`, `demo.html`, `demo.css`, `demo.json`  
 - Archives de distribution (`*.zip`, `*.tar.*`)
 
 ---
@@ -96,20 +101,15 @@ VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
 
 ## Ce que vous obtenez dans la version complète (Gumroad)
 
-Scripts entièrement configurés :  
-- formatage + nettoyage automatique (`clean.py`)  
-- conversion CRLF → LF (`convert.py`)  
-- détection des espaces en trop / lignes vides (`space.py`)  
+- Scripts entièrement opérationnels :  
+   - `clean.py` → nettoie tous les fichiers (supprime les marges inutiles + supprime les lignes vides uniquement à partir de 3)  
+   - `convert.py` → convertit tous les CRLF en LF dans le projet  
+   - `space.py` → analyse en lecture seule (détecte espaces inutiles, tabulations, lignes vides — sans modifier les fichiers)
 
-Environnement VS Code prêt à l’emploi :  
-- réglages (`settings.json`)  
-- tâches (`tasks.json`)  
-- raccourcis clavier (`keybindings.json`)  
-- configuration de lancement (`launch.json`)
-
-Documentation incluse :  
-- exemples avant/après (Python, HTML, CSS, JS, JSON)  
-- guide d’installation + documentation technique
+- Tâches VS Code configurées (prêtes à l’emploi)  
+- Installation en moins de 30 secondes  
+- Documentation complète : INSTALL, README technique, README commercial  
+- Exemples avant/après, vidéos de démonstration, support Discord  
 
 Disponible ici (à saisir manuellement) :  
 https://palks.gumroad.com/
