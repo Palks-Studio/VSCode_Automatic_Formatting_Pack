@@ -1,8 +1,4 @@
-[
-    // ==============================
-    // CUSTOM KEYBOARD SHORTCUTS
-    // ==============================
-
+[   
     {
         "key": "alt+m",
         "command": "editor.action.toggleMinimap",
