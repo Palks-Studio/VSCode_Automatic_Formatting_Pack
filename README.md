@@ -2,7 +2,7 @@
   <img src="docs/images/Palks_Studio.png" alt="VS Code Pack - Palks Studio">
 </p>
 
-> 🇬🇧 English | [🇫🇷 Français](./VSCode_Pack_Formatage_Automatique_FR/README_FR.md)
+> 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
