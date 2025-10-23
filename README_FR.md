@@ -1,4 +1,4 @@
-> 🇫🇷 Français | [🇬🇧 English](../README.md)
+> 🇫🇷 Français | [🇬🇧 English](./README.md)
 
 # VS Code – Pack de Formatage Automatique (Version Lite)
 
