@@ -24,7 +24,7 @@ node_modules/
 .cache/
 
 # -----------------------------
-# Archives / media (keep repo light)
+# Archives (mais PAS les vidéos de démonstration)
 # -----------------------------
 *.zip
 *.7z
@@ -33,10 +33,18 @@ node_modules/
 *.tar.gz
 *.tgz
 *.gz
+
+# -----------------------------
+# ⚠️ Vidéos : ne PAS ignorer celles dans /docs/
+# -----------------------------
+# Ignore global video files (évite les gros fichiers accidentels)
 *.mp4
 *.mov
 *.avi
 *.mkv
+
+# Mais autoriser explicitement les démonstrations dans docs/
+!docs/**/*.mp4
 
 # -----------------------------
 # Secrets / env
@@ -47,7 +55,7 @@ node_modules/
 *.pem
 
 # -----------------------------
-# Private pack files (do not publish)
+# Private pack files (réservés à la version commerciale)
 # -----------------------------
 clean.py
 convert.py
@@ -56,11 +64,8 @@ INSTALL.md
 COMMERCIAL_README.md
 TECHNICAL_README.md
 
-# Demo videos (if any) anywhere under docs/
-docs/**/*.mp4
-
 # -----------------------------
-# Local .vscode at repo root (keep the public template only)
+# VS Code settings — on garde uniquement le dossier public_version/.vscode/
 # -----------------------------
 .vscode/
 !public_version/.vscode/
