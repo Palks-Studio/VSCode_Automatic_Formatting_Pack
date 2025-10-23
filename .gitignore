@@ -1,5 +1,5 @@
 # -----------------------------
-# OS / Editors junk
+# OS / Editor junk files
 # -----------------------------
 .DS_Store
 Thumbs.db
@@ -7,7 +7,7 @@ Thumbs.db
 *.swo
 
 # -----------------------------
-# Python cache / build
+# Python cache / build files
 # -----------------------------
 __pycache__/
 *.pyc
@@ -24,7 +24,7 @@ node_modules/
 .cache/
 
 # -----------------------------
-# Archives (mais PAS les vidéos de démonstration)
+# Archives (keep repo lightweight)
 # -----------------------------
 *.zip
 *.7z
@@ -35,19 +35,18 @@ node_modules/
 *.gz
 
 # -----------------------------
-# ⚠️ Vidéos : ne PAS ignorer celles dans /docs/
+# Video files (ignored globally)
 # -----------------------------
-# Ignore global video files (évite les gros fichiers accidentels)
 *.mp4
 *.mov
 *.avi
 *.mkv
 
-# Mais autoriser explicitement les démonstrations dans docs/
+# Except: keep demo videos in docs/ (allowed)
 !docs/**/*.mp4
 
 # -----------------------------
-# Secrets / env
+# Sensitive / environment files
 # -----------------------------
 .env
 .env.*
@@ -55,7 +54,7 @@ node_modules/
 *.pem
 
 # -----------------------------
-# Private pack files (réservés à la version commerciale)
+# Private pack files (not for GitHub public version)
 # -----------------------------
 clean.py
 convert.py
@@ -65,7 +64,8 @@ COMMERCIAL_README.md
 TECHNICAL_README.md
 
 # -----------------------------
-# VS Code settings — on garde uniquement le dossier public_version/.vscode/
+# VS Code settings at root excluded,
+# only keep public_version/.vscode/
 # -----------------------------
 .vscode/
 !public_version/.vscode/
