@@ -1,31 +1,21 @@
 {
-    // ==============================
-    // GLOBAL EDITOR SETTINGS
-    // ==============================
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
     "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
-    "editor.formatOnSave": false,          // Disabled by default
+    "editor.formatOnSave": false,         
     "files.eol": "\n",
     "files.encoding": "utf8",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
 
-    // ==============================
-    // PYTHON SPECIFIC
-    // ==============================
     "[python]": {
-        "editor.formatOnSave": false,      // Allows manual formatting via task (Alt+R)
+        "editor.formatOnSave": false,      
         "editor.defaultFormatter": null,
         "editor.tabSize": 4
     },
 
-    // ==============================
-    // HTML / CSS / JS / JSON
-    // (No formatter forced — neutral setup)
-    // ==============================
     "[html]": {
         "editor.defaultFormatter": null,
         "editor.formatOnSave": false
@@ -45,14 +35,7 @@
         "editor.tabSize": 4
     },
 
-    // ==============================
-    // LINE ENDINGS & FILE TYPES
-    // ==============================
     "files.associations": {
         "*.py": "python"
-    },
-
-    // ==============================
-    // END OF FILE — LITE VERSION
-    // ==============================
+    }, 
 }
