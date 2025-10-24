@@ -134,11 +134,14 @@ https://palks.gumroad.com/
 
 Tu veux tester, proposer des améliorations ou poser des questions ?
 
-- **Gumroad :** https://palks.gumroad.com/
+- **Gumroad :**
+    https://palks.gumroad.com/
   
-- **Serveur Discord :** https://discord.gg/kzrSyThyZ7
+- **Serveur Discord :**
+    https://discord.gg/kzrSyThyZ7
   
-- **Reddit :** https://www.reddit.com/user/Puzzled_Gap_2951/
+- **Twitter (X) :**
+    https://x.com/PalksStudio
 
 ---
 
