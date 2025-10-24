@@ -134,7 +134,7 @@ Want to test, suggest improvements or ask questions?
 - **Gumroad**  
   https://palks.gumroad.com/
 
-- **Serveur Discord**  
+- **Discord server**  
   https://discord.gg/kzrSyThyZ7
 
 - **Twitter (X)**  
