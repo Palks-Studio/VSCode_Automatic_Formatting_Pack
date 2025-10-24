@@ -137,8 +137,8 @@ Want to test, suggest improvements or ask questions?
 - **Serveur Discord**  
   https://discord.gg/kzrSyThyZ7
 
-- **Reddit**  
-  https://www.reddit.com/user/Puzzled_Gap_2951/
+- **Twitter (X)**  
+  https://x.com/PalksStudio
 
   ---
 
