@@ -48,7 +48,7 @@ VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
 ├── README_FR.md                 ← Documentation principale (publique)
 ├── .gitignore                   ← Exclut les fichiers privés/commerciaux
 │
-├── LICENSE.txt                  ← License MIT
+├── LICENCE.txt                  ← Licence MIT
 ├── version_publique/
 │   ├── .vscode/
 │   │   ├── settings.json        ← Exemple minimal (UTF-8, LF, espaces visibles)
@@ -142,7 +142,7 @@ Tu veux tester, proposer des améliorations ou poser des questions ?
 
 ---
 
-## License
+## Licence
 
 Sous licence MIT.
 
