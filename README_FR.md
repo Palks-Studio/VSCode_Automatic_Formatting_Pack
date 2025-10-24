@@ -48,7 +48,7 @@ VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
 ├── README_FR.md                 ← Documentation principale (publique)
 ├── .gitignore                   ← Exclut les fichiers privés/commerciaux
 │
-├── LICENSE                      ← Licence MIT (publique)
+├── LICENSE.txt                  ← License MIT
 ├── version_publique/
 │   ├── .vscode/
 │   │   ├── settings.json        ← Exemple minimal (UTF-8, LF, espaces visibles)
@@ -58,6 +58,8 @@ VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
 │   └── exemple_structure.txt    ← Arborescence complète du pack commercial
 │
 └── docs/
+    ├── images/
+    │   └── Palks_Studio.png      ← Image propriétaire (Palks Studio)
     └── exemples/                 ← (Optionnel) Avant / Après détaillés de formatage
         ├── avant.py              ← Versions sales / déstructurées
         ├── apres.py              ← Versions propres générées par le pack
@@ -140,4 +142,13 @@ Tu veux tester, proposer des améliorations ou poser des questions ?
 
 ---
 
-**Palks Studio — Créateur d’outils utiles et autonomes.**
+## License
+
+Sous licence MIT.
+
+----
+
+**Palks Studio**
+
+Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.  
+Simplicité, clarté, efficacité.
