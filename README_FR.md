@@ -116,6 +116,28 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 Disponible ici (à saisir manuellement) :  
 https://palks.gumroad.com/
 
+### Important — Comportement des scripts (version complète uniquement)
+
+Les scripts de formatage (`clean.py`, `convert.py`, `space.py`) ne modifient pas seulement le fichier ouvert dans l’éditeur, mais peuvent traiter l’ensemble des fichiers présents à la racine du projet, pour les extensions suivantes :
+
+| Script       | Action principale                                                           |
+| ------------ | --------------------------------------------------------------------------- |
+| `convert.py` | Convertit toutes les fins de ligne en **LF (Unix)**                         |
+| `space.py`   | Analyse les fichiers et détecte les **espaces ou marges inutiles**          |
+| `clean.py`   | Supprime automatiquement les **espaces superflus et lignes vides inutiles** |
+
+Avant toute modification, un dossier `_backups/` est créé pour sauvegarder les fichiers d’origine.
+
+**À propos du formatage Python**
+
+Le formatage automatique Python via Autopep8 ne fonctionne que si l’utilisateur exécute la tâche correspondante dans VS Code (Menu “Exécuter une tâche…”).  
+Cette action ne concerne que le fichier Python actuellement ouvert, jamais le dossier complet.
+
+**Reindentation manuelle (Ctrl + A puis Ctrl + R)**
+
+Applique une réindentation uniquement sur le fichier actif (`HTML`, `CSS`, `JS`, `JSON`, etc.)  
+Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils utilisent Autopep8 à la place.
+
 ---
 
 ## Compatibilité technique
