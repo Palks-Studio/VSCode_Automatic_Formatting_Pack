@@ -48,7 +48,7 @@ VSCode_Pack_Formatage_Automatique/ (Version Lite)
 ├── README_FR.md                 ← Documentation principale (publique)
 ├── .gitignore                   ← Exclut les fichiers privés/commerciaux
 │
-├── LICENCE.txt                  ← Licence MIT
+├── LICENCE.txt                  ← Licence propriétaire (Palks Studio)
 ├── version_publique/
 │   ├── .vscode/
 │   │   ├── settings.json        ← Exemple minimal (UTF-8, LF, espaces visibles)
