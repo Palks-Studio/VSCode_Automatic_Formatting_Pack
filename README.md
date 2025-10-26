@@ -44,7 +44,7 @@ VSCode_Automatic_Formatting_Pack/ (Lite Version)
 ├── README.md                    ← Main documentation (public)
 ├── .gitignore                   ← Protects private/commercial files
 │
-├── LICENSE.txt                  ← License MIT
+├── LICENSE.txt                  ← Palks Studio Proprietary License
 ├── public_version/
 │   ├── .vscode/
 │   │   ├── settings.json        ← Minimal example (UTF-8, LF, spaces visible)
