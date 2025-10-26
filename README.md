@@ -62,6 +62,7 @@ VSCode_Automatic_Formatting_Pack/ (Lite Version)
         ├── convert_lf.mp4       ← CRLF files automatically converted to LF
         ├── indent_clean.mp4     ← Broken indentation/margins fixed instantly
         ├── indent_python.mp4    ← Badly indented Python file auto-corrected
+        ├── reindent.mp4         ← automatic file reindent after shifting a single line
         └── space_clean.mp4      ← Broken file analyzed + margins auto-cleaned
 ```
 
