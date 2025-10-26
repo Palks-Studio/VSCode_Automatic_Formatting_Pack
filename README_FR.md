@@ -15,6 +15,8 @@
   </a>
 </p>
 
+> 🇫🇷 Français | [🇬🇧 English](./README.md)
+
 # VS Code – Pack de Formatage Automatique (Version Lite)
 
 Un environnement **propre**, prêt à l’emploi pour Visual Studio Code, qui garde vos fichiers **alignés, bien indentés et cohérents**, sans dépendre de Prettier, d’extensions externes ou de scripts spécifiques à chaque projet.
@@ -116,6 +118,7 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 Disponible ici (à saisir manuellement) :  
 https://palks.gumroad.com/
 
+
 ### Important — Comportement des scripts (version complète uniquement)
 
 Les scripts de formatage (`clean.py`, `convert.py`, `space.py`) ne modifient pas seulement le fichier ouvert dans l’éditeur, mais peuvent traiter l’ensemble des fichiers présents à la racine du projet, pour les extensions suivantes :
@@ -156,22 +159,24 @@ Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils
 
 Tu veux tester, proposer des améliorations ou poser des questions ?
 
-- **Gumroad :**
-    https://palks.gumroad.com/
+- **Gumroad :**  
+  https://palks.gumroad.com/
   
-- **Serveur Discord :**
-    https://discord.gg/kzrSyThyZ7
+- **Serveur Discord :**  
+  https://discord.gg/kzrSyThyZ7
   
-- **Twitter (X) :**
-    https://x.com/PalksStudio
+- **Twitter (X) :**  
+  https://x.com/PalksStudio
 
 ---
 
-## Licence
+## Crédits et licences
 
-Sous licence MIT.
+Ce pack est une création originale de **Palks Studio**.  
+Toute revente, diffusion ou modification publique sans autorisation est interdite.  
+Usage personnel et professionnel autorisé.
 
-----
+---
 
 **Palks Studio**
 
