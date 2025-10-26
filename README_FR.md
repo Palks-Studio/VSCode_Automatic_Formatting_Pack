@@ -44,7 +44,7 @@ https://palks.gumroad.com/
 
 ## Structure du dépôt (version publique) 
 ```
-VSCode_Pack_Formatage_Automatique_FR/ (Version Lite)
+VSCode_Pack_Formatage_Automatique/ (Version Lite)
 ├── README_FR.md                 ← Documentation principale (publique)
 ├── .gitignore                   ← Exclut les fichiers privés/commerciaux
 │
