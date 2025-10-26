@@ -15,6 +15,8 @@
   </a>
 </p>
 
+> 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
+
 # VS Code – Automatic Formatting Pack (Lite Version)
 
 A clean, ready-to-use setup for Visual Studio Code that keeps your files **consistent, properly indented and organized** — without relying on Prettier, external extensions, or custom scripts per project.
@@ -166,13 +168,17 @@ Want to test, suggest improvements or ask questions?
 
   ---
 
-## License
+## Credits & License
 
-This project is licensed under the MIT License.
+This template is an original creation by Palks Studio.  
+Resale, redistribution or public modification without permission is prohibited.  
+Personal and professional use is allowed.
 
 ---
 
 **Palks Studio**
 
 Creator of useful and self-contained tools: scripts, templates and ready-to-use bases.  
+Simplicity, clarity, efficiency.
+use bases.  
 Simplicity, clarity, efficiency.
