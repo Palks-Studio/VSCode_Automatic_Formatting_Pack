@@ -4,18 +4,17 @@
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
 ![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
+![License](https://img.shields.io/badge/License-Custom-lightgreen.svg)
+<!-- Tu peux modifier "Custom" par le nom de ta licence perso si tu veux (ex: Palks License) -->
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
     <img src="https://img.shields.io/badge/🔽 Télécharger%20sur-Gumroad-orange?style=for-the-badge" alt="Télécharger sur Gumroad">
   </a>
 </p>
-
-> 🇫🇷 Français | [🇬🇧 English](./README.md)
 
 # VS Code – Pack de Formatage Automatique (Version Lite)
 
