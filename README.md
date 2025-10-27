@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
-    <img src="https://img.shields.io/badge/🔽 Download%20on-Gumroad-orange?style=for-the-badge" alt="Download on Gumroad">
+    <img src="https://img.shields.io/badge/Download%20on-Gumroad-orange?style=for-the-badge" alt="Download on Gumroad">
   </a>
 </p>
 
