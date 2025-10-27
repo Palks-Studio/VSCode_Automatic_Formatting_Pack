@@ -15,6 +15,7 @@ VSCode_Automatic_Formatting_Pack/
 ├── convert.py                          ← Convert all CRLF to LF across the project
 ├── space.py                            ← Detect unnecessary margins (extra spaces + blank lines)
 │
+├── LICENSE.txt                         ← Palks Studio Proprietary License
 ├── INSTALL.md                          ← Installation & usage guide
 ├── README_COMMERCIAL.md                ← Product presentation for Gumroad
 │
@@ -26,4 +27,5 @@ VSCode_Automatic_Formatting_Pack/
         ├── convert_lf.mp4              ← CRLF files automatically converted to LF
         ├── indent_clean.mp4            ← Broken indentation/margins fixed instantly
         ├── indent_python.mp4           ← Badly indented Python file auto-corrected
+        ├── reindent.mp4                ← automatic file reindent after shifting a single line
         └── space_clean.mp4             ← Broken file analyzed + margins auto-cleaned
