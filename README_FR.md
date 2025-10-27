@@ -158,14 +158,12 @@ Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils
 
 Tu veux tester, proposer des améliorations ou poser des questions ?
 
-- **Gumroad :**  
-  https://palks.gumroad.com/
-  
-- **Serveur Discord :**  
-  https://discord.gg/kzrSyThyZ7
-  
-- **Twitter (X) :**  
-  https://x.com/PalksStudio
+GitHub: https://github.com/Palks-Studio  
+Gumroad: https://palks.gumroad.com/  
+Discord: https://discord.gg/kzrSyThyZ7  
+Twitter (X): https://x.com/PalksStudio  
+Itch.io: http://palks-studio.itch.io/  
+Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
 
