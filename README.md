@@ -7,8 +7,7 @@
 ![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
 ![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
-![License](https://img.shields.io/badge/License-Custom-lightgreen.svg)
-<!-- Tu peux remplacer "Custom" par "Palks Studio License" ou le nom exact si tu veux -->
+![License](https://img.shields.io/badge/License-LICENCE.txt-lightgreen.svg)
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
@@ -163,7 +162,7 @@ Twitter (X): https://x.com/PalksStudio
 Itch.io: http://palks-studio.itch.io/  
 Ko-Fi: https://ko-fi.com/palksstudio
 
-  ---
+---
 
 ## Credits & License
 
@@ -177,5 +176,4 @@ Personal and professional use is allowed.
 
 Creator of useful and self-contained tools: scripts, templates and ready-to-use bases.  
 Simplicity, clarity, efficiency.
-use bases.  
-Simplicity, clarity, efficiency.
+
