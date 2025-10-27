@@ -1,7 +1,7 @@
 > 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
 
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="Palks Studio Logo" width="200">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio Logo" width="400">
 </p>
 
 [![Button-Gumroad](https://img.shields.io/badge/▸%20Voir%20sur%20Gumroad-0a5645?style=for-the-badge&logo=gumroad&logoColor=white)](https://palks.gumroad.com)
