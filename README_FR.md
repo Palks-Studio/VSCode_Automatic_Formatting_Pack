@@ -4,15 +4,14 @@
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
 
-![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
+![Éditeur](https://img.shields.io/badge/Éditeur-VS%20Code-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
-![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
-![License](https://img.shields.io/badge/License-Custom-lightgreen.svg)
-<!-- Tu peux modifier "Custom" par le nom de ta licence perso si tu veux (ex: Palks License) -->
+![Plateforme](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
+![Licence](https://img.shields.io/badge/Licence-LICENCE.txt-lightgreen.svg)
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
-    <img src="https://img.shields.io/badge/🔽 Télécharger%20sur-Gumroad-orange?style=for-the-badge" alt="Télécharger sur Gumroad">
+    <img src="https://img.shields.io/badge/Télécharger%20sur-Gumroad-orange?style=for-the-badge" alt="Télécharger sur Gumroad">
   </a>
 </p>
 
