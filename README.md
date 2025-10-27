@@ -156,14 +156,12 @@ Exception: Python files are not reindented using this method — they rely on Au
 
 Want to test, suggest improvements or ask questions?
 
-- **Gumroad**  
-  https://palks.gumroad.com/
-
-- **Discord server**  
-  https://discord.gg/kzrSyThyZ7
-
-- **Twitter (X)**  
-  https://x.com/PalksStudio
+GitHub: https://github.com/Palks-Studio  
+Gumroad: https://palks.gumroad.com/  
+Discord: https://discord.gg/kzrSyThyZ7  
+Twitter (X): https://x.com/PalksStudio  
+Itch.io: http://palks-studio.itch.io/  
+Ko-Fi: https://ko-fi.com/palksstudio
 
   ---
 
