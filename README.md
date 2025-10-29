@@ -17,37 +17,41 @@
 
 # VS Code – Automatic Formatting Pack (Lite Version)
 
-A clean, ready-to-use setup for Visual Studio Code that keeps your files **consistent, properly indented and organized** — without relying on Prettier, external extensions, or custom scripts per project.
+---
 
-This repository contains the **public preview version** of the pack.  
-The **full version** (with ready-to-use scripts: `clean.py`, `convert.py`, `space.py`, automation tasks, installation guide, demos…) is available on Gumroad:
+### Version 1.1 – October 2025
 
-https://palks.gumroad.com/ 
+**Previous release** Version 1.0 (October 2025) – Initial public demo on GitHub, later replaced by this unified standalone version.
+This update consolidates both French and English documentation, removes all Git traces, and ensures a fully standalone structure.
+Previous GitHub demo versions have been cleaned and replaced with this unified, verified release.
 
 ---
 
-## What this pack does
+A clean, ready-to-use setup for Visual Studio Code that keeps your files consistent, properly indented and organized — without relying on Prettier, external extensions, or custom scripts per project.
 
-✔ Automatically keeps your code **clean, aligned and consistent**  
-✔ Works for **Python, HTML, CSS, JS, JSON**  
-✔ Normalizes **indentation, spaces, line endings (CRLF → LF), UTF-8 encoding**  
-✔ Adds useful **shortcuts and VS Code tasks**:  
-- `Alt + R` → re-indent the entire file instantly  
-- `Alt + M` → toggle minimap  
-- Optional auto-format (Python only: autopep8 + space cleanup)
+This package contains the public preview version of the pack.
+The full version (with ready-to-use scripts: clean.py, convert.py, space.py, automation tasks, installation guide, demos…) is available on Gumroad, Itch or Ko-Fi.
+
+What this pack does:
+✔ Automatically keeps your code clean, aligned and consistent
+✔ Works for Python, HTML, CSS, JS, JSON
+✔ Normalizes indentation, margins, line endings (CRLF → LF), UTF-8 encoding
+✔ Adds useful shortcuts and VS Code tasks:
+- Alt + R → re-indent the entire file instantly
+- Alt + M → toggle minimap
+- Optional auto-format (Python only: autopep8 + margin cleanup)
 
 ---
 
-## Repository structure (public version)  
+## Structure (Public version)
+
 ```
 VSCode_Automatic_Formatting_Pack/ (Lite Version)
 ├── README.md                    ← Main documentation (public)
-├── .gitignore                   ← Protects private/commercial files
-│
 ├── LICENSE.txt                  ← Palks Studio Proprietary License
 ├── public_version/
 │   ├── .vscode/
-│   │   ├── settings.json        ← Minimal example (UTF-8, LF, spaces visible)
+│   │   ├── settings.json        ← Minimal example (UTF-8, LF, margins visible)
 │   │   ├── tasks.json           ← Structure only (no scripts inside)
 │   │   ├── keybindings.json     ← Alt+R and Alt+M shortcuts
 │   │   └── launch.json          ← Optional: run active Python file
@@ -67,79 +71,81 @@ VSCode_Automatic_Formatting_Pack/ (Lite Version)
 ```
 
 
-The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are intentionally included in the Lite version — they are real demonstrations from the full pack to show what it can do.
+The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are intentionally included in the Lite version — they are real demonstrations from the full pack, showing its capabilities.
 
 ---
 
-## Not included in this repository (part of the paid pack)
+## Not included in this version (part of the paid pack)
 
-- `.vscode/extensions.json` — local extension overrides (disable Prettier / RunOnSave)  
-- `settings.json` (full version with all editor/formatting policies)  
-- `keybindings.json` (full shortcut set)  
-- `tasks.json` (tasks wired to the pack scripts)  
-- `launch.json` (complete debug presets)  
-- `clean.py` — project-wide cleanup  
-- `convert.py` — CRLF → LF conversion across the workspace  
-- `space.py` — whitespace / extra line detection  
-- `INSTALL.md` — installation & usage guide  
-- `COMMERCIAL_README.md` — Gumroad product presentation  
-- `docs/TECHNICAL_README.md` — technical notes / maintenance  
+- `.vscode/extensions.json` — local extension overrides (disable Prettier / RunOnSave)
+- `settings.json` (full version with all editor/formatting policies)
+- `keybindings.json` (full shortcut set)
+- `tasks.json` (tasks wired to the pack scripts)
+- `launch.json` (complete debug presets)
+- `clean.py` — project-wide cleanup
+- `convert.py` — CRLF → LF conversion across the workspace
+- `space.py` — whitespace / extra line detection
+- `INSTALL.md` — installation & usage guide
+- `COMMERCIAL_README.md` — product presentation
+- `docs/TECHNICAL_README.md` — technical notes / maintenance
 - Distribution archives (`*.zip`, `*.tar.*`)
 
 ---
 
 ## Quick Use (Preview Version)
 
-1. Clone or download this repository    
-2. Copy the folder `.vscode/` from `public_version/` into any project    
-3. Open the project in VS Code → your editor is now using the base settings
+1. Extract the ZIP archive
+2. Copy the .vscode/ folder from public_version/ into your project
+3. Open in VS Code — the base formatting setup is ready.
 
 ---
 
-## What you get in the full version (Gumroad)
+## What you get in the full version
 
-- Fully working scripts:  
-   - `clean.py` → cleans all files (removes extra spaces + deletes blank lines only if 3 or more)  
-   - `convert.py` → converts CRLF → LF across the workspace  
-   - `space.py` → read-only scan (detects extra spaces, tabs and blank lines without modifying files)
+- Fully working scripts:
+  - `clean.py` → cleans all files (removes extra margins + deletes blank lines only if 3 or more)
+  - `convert.py` → converts CRLF → LF across the workspace
+  - `space.py` → read-only scan (detects extra margins, tabs and blank lines without modifying files)
 
-- VS Code fully configured:  
-   - settings, tasks, launch presets, keybindings
+- VS Code fully configured:
+  - settings, tasks, launch presets, keybindings
 
-- Documentation included:  
-   - installation guide, technical notes, commercial readme
+- Documentation included:
+  - installation guide, technical notes, commercial readme
 
-- Bonus content:  
-   - before/after examples, demo videos, Discord support
+- Bonus content:
+  - before/after examples, demo videos, Discord support
 
-Full version available here: https://palks.gumroad.com/
+**Full version available here**
+https://palks.gumroad.com/  
+https://ko-fi.com/palksstudio  
+http://palks-studio.itch.io/
+
 
 ### Important — Script Behavior (Full Version Only)
 
-The formatting scripts (`clean.py`, `convert.py`, `space.py`) do not only modify the file currently open in the editor.  
+The formatting scripts (`clean.py`, `convert.py`, `space.py`) do not only modify the file currently open in the editor.
 They can process all files located at the root of the project, for the following extensions:
 
 | Script       | Main behavior                                                          |
 | ------------ | ---------------------------------------------------------------------- |
 | `convert.py` | Converts all line endings to **LF (Unix)**                             |
-| `space.py`   | Scans files and detects **unnecessary trailing spaces or blank areas** |
-| `clean.py`   | Automatically removes **extra spaces and unnecessary blank lines**     |
+| `space.py`   | Scans files and detects **unnecessary margins or blank areas** |
+| `clean.py`   | Automatically removes **extra margins and unnecessary blank lines**     |
 
 Before any modification is applied, a `_backups/` folder is automatically created to store the original files safely.
 
 **About Python formatting**
-
-Automatic Python formatting with Autopep8 only works when the corresponding task is manually executed in VS Code (menu “Run Task…”).  
+Automatic Python formatting with autopep8 only works when the corresponding task is manually executed in VS Code (menu “Run Task…”).
 This action only applies to the currently active Python file — it never formats the entire project.
 
 **Manual reindentation (Ctrl + A then Ctrl + R)**
-
-This command reindents only the currently active file (`HTML`, `CSS`, `JS`, `JSON`, etc.).  
-Exception: Python files are not reindented using this method — they rely on Autopep8 instead.
+This command reindents only the currently active file (`HTML`, `CSS`, `JS`, `JSON`, etc.).
+Exception: Python files are not reindented using this method — they rely on autopep8 instead.
 
 ---
 
-## Tech compatibility
+## Technical compatibility
 
 | Tool                    | Supported |
 |-------------------------|-----------|
@@ -153,7 +159,7 @@ Exception: Python files are not reindented using this method — they rely on Au
 
 ## Feedback & Community
 
-Want to test, suggest improvements or ask questions?
+Want to test, suggest improvements, or ask questions?
 
 GitHub: https://github.com/Palks-Studio  
 Gumroad: https://palks.gumroad.com/  
@@ -166,14 +172,13 @@ Ko-Fi: https://ko-fi.com/palksstudio
 
 ## Credits & License
 
-This template is an original creation by Palks Studio.  
-Resale, redistribution or public modification without permission is prohibited.  
+This template is an original creation by Palks Studio.
+Resale, redistribution or public modification without permission is prohibited.
 Personal and professional use is allowed.
 
 ---
 
 **Palks Studio**
-
-Creator of useful and self-contained tools: scripts, templates and ready-to-use bases.  
+Creator of useful and self-contained tools: scripts, templates and ready-to-use bases.
 Simplicity, clarity, efficiency.
 
