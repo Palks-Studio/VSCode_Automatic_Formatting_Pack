@@ -17,41 +17,42 @@
 
 # VS Code – Pack de Formatage Automatique (Version Lite)
 
-Un environnement **propre**, prêt à l’emploi pour Visual Studio Code, qui garde vos fichiers **alignés, bien indentés et cohérents**, sans dépendre de Prettier, d’extensions externes ou de scripts spécifiques à chaque projet.
+---
 
-Ce dépôt contient la **version publique / d’aperçu** du pack.
-La version complète (avec scripts prêts à l’emploi : `clean.py`, `convert.py`, `space.py`, guide d’installation, tâches automatisées, démos…) est disponible sur Gumroad :
+### Version 1.1 – Octobre 2025
 
-https://palks.gumroad.com/
+**Version précédente** 1.0 (Octobre 2025) — Première démonstration publique sur GitHub, remplacée depuis par cette version unifiée et autonome.
+Cette mise à jour unifie la documentation française et anglaise, supprime toutes les traces Git et garantit une structure totalement autonome.
+Les anciennes versions de démonstration sur GitHub ont été nettoyées et remplacées par cette version vérifiée et unifiée.
 
 ---
 
-## Ce que fait ce pack
+Une configuration propre et prête à l’emploi pour Visual Studio Code, qui garde tes fichiers cohérents, correctement indentés et organisés — sans dépendre de Prettier, d’extensions externes ou de scripts personnalisés par projet.
 
-✔ Maintient automatiquement un code propre, **aligné et uniforme**  
-✔ Compatible avec **Python, HTML, CSS, JavaScript, JSON**  
-✔ Normalise automatiquement :  
-- Indentation  
-- Espaces / fin de ligne (CRLF → LF)  
-- Encodage UTF-8
+Ce pack contient la version publique de démonstration.
+La version complète (avec scripts prêts à l’emploi : clean.py, convert.py, space.py, tâches automatisées, guide d’installation, démonstrations…) est disponible sur Gumroad, Itch ou Ko-Fi.
 
-✔ Ajoute des raccourcis et tâches utiles dans VS Code :  
-- Alt + R → réindentation complète du fichier actif  
-- Alt + M → afficher / masquer la minimap  
-- Formatage automatique optionnel (Python : Autopep8 + nettoyage)
+## Ce que fait ce pack :
+
+✔ Maintient automatiquement ton code propre, aligné et cohérent
+✔ Fonctionne avec Python, HTML, CSS, JS et JSON
+✔ Normalise l’indentation, les marges, les fins de ligne (CRLF → LF) et l’encodage UTF-8
+✔ Ajoute des raccourcis et tâches utiles dans VS Code :
+- Alt + R → réindente instantanément tout le fichier
+- Alt + M → affiche ou masque la mini-carte
+- Formatage automatique optionnel (Python uniquement : autopep8 + nettoyage des marges)
 
 ---
 
-## Structure du dépôt (version publique) 
+## Structure (Version publique)
+
 ```
 VSCode_Pack_Formatage_Automatique/ (Version Lite)
 ├── README_FR.md                 ← Documentation principale (publique)
-├── .gitignore                   ← Exclut les fichiers privés/commerciaux
-│
 ├── LICENCE.txt                  ← Licence propriétaire (Palks Studio)
 ├── version_publique/
 │   ├── .vscode/
-│   │   ├── settings.json        ← Exemple minimal (UTF-8, LF, espaces visibles)
+│   │   ├── settings.json        ← Exemple minimal (UTF-8, LF, marges visibles)
 │   │   ├── tasks.json           ← Structure uniquement (sans scripts internes)
 │   │   ├── keybindings.json     ← Raccourcis Alt+R et Alt+M
 │   │   └── launch.json          ← Optionnel : exécuter le fichier Python actif
@@ -66,7 +67,7 @@ VSCode_Pack_Formatage_Automatique/ (Version Lite)
         ├── convert_lf.mp4        ← Fichiers CRLF reconvertis en LF automatiquement
         ├── indent_clean.mp4      ← Fichiers avec indentation/marges cassées + auto-correction instantanée
         ├── indent_python.mp4     ← Fichier Python mal indenté + correction automatique
-        └── space_clean.mp4       ← Fichiers cassé volontairement + analyse marges + auto-correction instantanée
+        └── space_clean.mp4       ← Fichier volontairement désaligné + analyse des marges + auto-correction instantanée
 ```
 
 
@@ -74,48 +75,47 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 
 ---
 
-## Non inclus dans ce dépôt (réservé à la version complète)
+## Non inclus dans cette version (réservé à la version complète)
 
-- `.vscode/extensions.json` — désactivation locale d’extensions (Prettier / RunOnSave)  
-- `settings.json` — version complète avec toutes les règles d’édition  
-- `keybindings.json` — ensemble complet des raccourcis  
-- `tasks.json` — tâches reliées aux scripts du pack  
-- `launch.json` — profils complets de débogage  
-- `clean.py` — nettoyage global du projet  
-- `convert.py` — conversion CRLF → LF dans tout l’espace de travail  
-- `space.py` — détection d’espaces ou lignes superflues  
-- `INSTALL.md` — guide d’installation et d’utilisation  
-- `README_COMMERCIAL.md` — présentation du produit (version Gumroad)  
-- `docs/README_TECHNIQUE.md` — notes techniques / maintenance  
+- `.vscode/extensions.json` — désactivation locale d’extensions (Prettier / RunOnSave)
+- `settings.json` — version complète avec toutes les règles d’édition
+- `keybindings.json` — ensemble complet des raccourcis
+- `tasks.json` — tâches reliées aux scripts du pack
+- `launch.json` — profils complets de débogage
+- `clean.py` — nettoyage global du projet
+- `convert.py` — conversion CRLF → LF dans tout l’espace de travail
+- `space.py` — détection de marges ou lignes superflues
+- `INSTALL.md` — guide d’installation et d’utilisation
+- `README_COMMERCIAL.md` — présentation du produit
+- `docs/README_TECHNIQUE.md` — notes techniques / maintenance
 - Archives de distribution (`*.zip`, `*.tar.*`)
 
 ---
 
 ## Utilisation rapide (Version d’aperçu)
 
-1. Clonez ou téléchargez ce dépôt  
-
-2. Copiez le dossier `.vscode/` depuis `version_publique/` dans n’importe quel projet  
-
-3. Ouvrez le projet dans VS Code → les réglages de base sont actifs immédiatement
+1. Extrait l’archive ZIP
+2. Copie le dossier `.vscode/` depuis `version_publique/` dans le projet de ton choix
+3. Ouvre le projet dans VS Code → les réglages de base sont actifs immédiatement
 
 ---
 
-## Ce que vous obtenez dans la version complète (Gumroad)
+## Ce que tu obtiens dans la version complète
 
-- Scripts entièrement opérationnels :  
-   - `clean.py` → nettoie tous les fichiers (supprime les marges inutiles + supprime les lignes vides uniquement à partir de 3)  
-   - `convert.py` → convertit tous les CRLF en LF dans le projet  
-   - `space.py` → analyse en lecture seule (détecte espaces inutiles, tabulations, lignes vides — sans modifier les fichiers)
+- Scripts entièrement opérationnels :
+  - `clean.py` → nettoie tous les fichiers (supprime les marges inutiles + supprime les lignes vides uniquement à partir de 3)
+  - `convert.py` → convertit tous les CRLF en LF dans le projet
+  - `space.py` → analyse en lecture seule (détecte marges inutiles, tabulations, lignes vides — sans modifier les fichiers)
 
-- Tâches VS Code configurées (prêtes à l’emploi)  
-- Installation en moins de 30 secondes  
-- Documentation complète : INSTALL, README technique, README commercial  
-- Exemples avant/après, vidéos de démonstration, support Discord  
+- Tâches VS Code configurées (prêtes à l’emploi)
+- Installation en moins de 30 secondes
+- Documentation complète : INSTALL, README technique, README commercial
+- Exemples avant/après, vidéos de démonstration, support Discord
 
-Disponible ici (à saisir manuellement) :  
-https://palks.gumroad.com/
-
+**Version complète disponible ici**
+Gumroad → https://palks.gumroad.com/  
+Itch.io → http://palks-studio.itch.io/  
+Ko-Fi → https://ko-fi.com/palksstudio
 
 ### Important — Comportement des scripts (version complète uniquement)
 
@@ -124,20 +124,20 @@ Les scripts de formatage (`clean.py`, `convert.py`, `space.py`) ne modifient pas
 | Script       | Action principale                                                           |
 | ------------ | --------------------------------------------------------------------------- |
 | `convert.py` | Convertit toutes les fins de ligne en **LF (Unix)**                         |
-| `space.py`   | Analyse les fichiers et détecte les **espaces ou marges inutiles**          |
-| `clean.py`   | Supprime automatiquement les **espaces superflus et lignes vides inutiles** |
+| `space.py`   | Analyse les fichiers et détecte les **marges inutiles**          |
+| `clean.py`   | Supprime automatiquement les **marges superflues et lignes vides inutiles** |
 
 Avant toute modification, un dossier `_backups/` est créé pour sauvegarder les fichiers d’origine.
 
 **À propos du formatage Python**
 
-Le formatage automatique Python via Autopep8 ne fonctionne que si l’utilisateur exécute la tâche correspondante dans VS Code (Menu “Exécuter une tâche…”).  
-Cette action ne concerne que le fichier Python actuellement ouvert, jamais le dossier complet.
+Le formatage automatique Python via autopep8 ne fonctionne que si tu exécutes la tâche correspondante dans VS Code (Menu “Exécuter une tâche…”).
+Cette action ne s’applique qu’au fichier Python actuellement ouvert, jamais à l’ensemble du projet.
 
 **Reindentation manuelle (Ctrl + A puis Ctrl + R)**
 
-Applique une réindentation uniquement sur le fichier actif (`HTML`, `CSS`, `JS`, `JSON`, etc.)  
-Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils utilisent Autopep8 à la place.
+Applique une réindentation uniquement sur le fichier actif (`HTML`, `CSS`, `JS`, `JSON`, etc.)
+Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils utilisent autopep8 à la place.
 
 ---
 
@@ -166,15 +166,14 @@ Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
 
-## Crédits et licences
+## Crédits et Licence
 
-Ce pack est une création originale de **Palks Studio**.  
-Toute revente, diffusion ou modification publique sans autorisation est interdite.  
+Ce pack est une création originale de **Palks Studio**.
+Toute revente, diffusion ou modification publique sans autorisation est interdite.
 Usage personnel et professionnel autorisé.
 
 ---
 
 **Palks Studio**
-
-Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.  
+Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.
 Simplicité, clarté, efficacité.
