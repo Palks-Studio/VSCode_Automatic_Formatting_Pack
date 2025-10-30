@@ -170,7 +170,7 @@ Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes �
 Simplicité, clarté, efficacité.
 
 - GitHub : https://github.com/Palks-Studio  
-- Gumroad: https://palks.gumroad.com  
+- Gumroad : https://palks.gumroad.com  
 - Discord : https://discord.gg/kzrSyThyZ7  
 - Twitter (X) : https://x.com/PalksStudio  
 - Itch.io : http://palks-studio.itch.io  
