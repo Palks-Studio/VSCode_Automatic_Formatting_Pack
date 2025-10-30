@@ -32,15 +32,18 @@ Une configuration propre et prête à l’emploi pour Visual Studio Code, qui ga
 Ce pack contient la version publique de démonstration.
 La version complète (avec scripts prêts à l’emploi : clean.py, convert.py, space.py, tâches automatisées, guide d’installation, démonstrations…) est disponible sur Gumroad, Itch ou Ko-Fi.
 
-## Ce que fait ce pack :
+## Ce que fait ce pack
 
-✔ Maintient automatiquement ton code propre, aligné et cohérent
-✔ Fonctionne avec Python, HTML, CSS, JS et JSON
-✔ Normalise l’indentation, les marges, les fins de ligne (CRLF → LF) et l’encodage UTF-8
-✔ Ajoute des raccourcis et tâches utiles dans VS Code :
-- Alt + R → réindente instantanément tout le fichier
-- Alt + M → affiche ou masque la mini-carte
-- Formatage automatique optionnel (Python uniquement : autopep8 + nettoyage des marges)
+- Maintient automatiquement ton code propre, aligné et cohérent  
+- Fonctionne avec Python, HTML, CSS, JS et JSON  
+- Normalise l’indentation, les marges, les fins de ligne (CRLF → LF) et l’encodage UTF-8  
+
+- Ajoute des raccourcis et tâches utiles dans VS Code :  
+
+  - **Ctrl + A** → sélectionne tout le fichier avant exécution  
+  - **Alt + R** → réindente instantanément le texte sélectionné  
+  - **Alt + M** → affiche ou masque la mini-carte  
+  - **Formatage automatique optionnel** (Python uniquement : autopep8 + nettoyage des marges)
 
 ---
 
@@ -77,17 +80,17 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 
 ## Non inclus dans cette version (réservé à la version complète)
 
-- `.vscode/extensions.json` — désactivation locale d’extensions (Prettier / RunOnSave)
-- `settings.json` — version complète avec toutes les règles d’édition
-- `keybindings.json` — ensemble complet des raccourcis
-- `tasks.json` — tâches reliées aux scripts du pack
-- `launch.json` — profils complets de débogage
-- `clean.py` — nettoyage global du projet
-- `convert.py` — conversion CRLF → LF dans tout l’espace de travail
-- `space.py` — détection de marges ou lignes superflues
-- `INSTALL.md` — guide d’installation et d’utilisation
-- `README_COMMERCIAL.md` — présentation du produit
-- `docs/README_TECHNIQUE.md` — notes techniques / maintenance
+- `.vscode/extensions.json` — désactivation locale d’extensions (Prettier / RunOnSave)  
+- `settings.json` — version complète avec toutes les règles d’édition  
+- `keybindings.json` — ensemble complet des raccourcis  
+- `tasks.json` — tâches reliées aux scripts du pack  
+- `launch.json` — profils complets de débogage  
+- `clean.py` — nettoyage global du projet  
+- `convert.py` — conversion CRLF → LF dans tout l’espace de travail  
+- `space.py` — détection de marges ou lignes superflues  
+- `INSTALL.md` — guide d’installation et d’utilisation  
+- `README_COMMERCIAL.md` — présentation du produit  
+- `docs/README_TECHNIQUE.md` — notes techniques / maintenance  
 - Archives de distribution (`*.zip`, `*.tar.*`)
 
 ---
@@ -95,21 +98,24 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 ## Utilisation rapide (Version d’aperçu)
 
 1. Extrait l’archive ZIP
+
 2. Copie le dossier `.vscode/` depuis `version_publique/` dans le projet de ton choix
+
 3. Ouvre le projet dans VS Code → les réglages de base sont actifs immédiatement
 
 ---
 
 ## Ce que tu obtiens dans la version complète
 
-- Scripts entièrement opérationnels :
-  - `clean.py` → nettoie tous les fichiers (supprime les marges inutiles + supprime les lignes vides uniquement à partir de 3)
-  - `convert.py` → convertit tous les CRLF en LF dans le projet
-  - `space.py` → analyse en lecture seule (détecte marges inutiles, tabulations, lignes vides — sans modifier les fichiers)
+- Scripts entièrement opérationnels :  
 
-- Tâches VS Code configurées (prêtes à l’emploi)
-- Installation en moins de 30 secondes
-- Documentation complète : INSTALL, README technique, README commercial
+  - `clean.py` → nettoie tous les fichiers (supprime les marges inutiles + supprime les lignes vides uniquement à partir de 3)  
+  - `convert.py` → convertit tous les CRLF en LF dans le projet  
+  - `space.py` → analyse en lecture seule (détecte marges inutiles, tabulations, lignes vides — sans modifier les fichiers)  
+
+- Tâches VS Code configurées (prêtes à l’emploi)  
+- Installation en moins de 30 secondes  
+- Documentation complète : INSTALL, README technique, README commercial  
 - Exemples avant/après, vidéos de démonstration, support Discord
 
 **Version complète disponible ici**
@@ -153,27 +159,20 @@ Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils
 
 ---
 
-## Retour et Communauté
-
-Tu veux tester, proposer des améliorations ou poser des questions ?
-
-GitHub: https://github.com/Palks-Studio  
-Gumroad: https://palks.gumroad.com/  
-Discord: https://discord.gg/kzrSyThyZ7  
-Twitter (X): https://x.com/PalksStudio  
-Itch.io: http://palks-studio.itch.io/  
-Ko-Fi: https://ko-fi.com/palksstudio
-
----
-
-## Crédits et Licence
+## Crédits et licence
 
 Ce pack est une création originale de **Palks Studio**.
 Toute revente, diffusion ou modification publique sans autorisation est interdite.
 Usage personnel et professionnel autorisé.
 
----
-
 **Palks Studio**
 Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.
 Simplicité, clarté, efficacité.
+
+- GitHub: https://github.com/Palks-Studio  
+- Gumroad: https://palks.gumroad.com/  
+- Discord: https://discord.gg/kzrSyThyZ7  
+- Twitter (X): https://x.com/PalksStudio  
+- Itch.io: http://palks-studio.itch.io/  
+- Ko-Fi: https://ko-fi.com/palksstudio
+
