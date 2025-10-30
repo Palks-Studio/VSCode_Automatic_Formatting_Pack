@@ -119,9 +119,9 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 - Exemples avant/après, vidéos de démonstration, support Discord
 
 **Version complète disponible ici**
-- Gumroad: https://palks.gumroad.com/  
-- Itch: http://palks-studio.itch.io/  
-- Ko-Fi: https://ko-fi.com/palksstudio
+- Gumroad : https://palks.gumroad.com  
+- Itch : http://palks-studio.itch.io  
+- Ko-Fi : https://ko-fi.com/palksstudio
 
 ### Important — Comportement des scripts (version complète uniquement)
 
@@ -166,13 +166,12 @@ Toute revente, diffusion ou modification publique sans autorisation est interdit
 Usage personnel et professionnel autorisé.
 
 **Palks Studio**
-Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.
+Créateur d’outils utiles et autonomes :  scripts, templates et bases prêtes à l’emploi.
 Simplicité, clarté, efficacité.
 
-- GitHub: https://github.com/Palks-Studio  
-- Gumroad: https://palks.gumroad.com/  
-- Discord: https://discord.gg/kzrSyThyZ7  
-- Twitter (X): https://x.com/PalksStudio  
-- Itch: http://palks-studio.itch.io/  
-- Ko-Fi: https://ko-fi.com/palksstudio
-
+- GitHub : https://github.com/Palks-Studio  
+- Gumroad : https://palks.gumroad.com  
+- Discord : https://discord.gg/kzrSyThyZ7  
+- Twitter (X) : https://x.com/PalksStudio  
+- Itch : http://palks-studio.itch.io  
+- Ko-Fi : https://ko-fi.com/palksstudio
