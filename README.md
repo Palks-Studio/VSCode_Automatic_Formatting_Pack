@@ -129,7 +129,7 @@ The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are int
 **Full version available here**
 - Gumroad: https://palks.gumroad.com  
 - Ko-Fi: https://ko-fi.com/palksstudio  
-- Itch: http://palks-studio.itch.io
+- Itch.io: http://palks-studio.itch.io
 
 
 ### Important — Script Behavior (Full Version Only)
@@ -169,7 +169,7 @@ Exception: Python files are not reindented using this method — they rely on au
 
 ## Credits & License
 
-This template is an original creation by Palks Studio.
+This pack is an original creation by **Palks Studio**.
 Resale, redistribution or public modification without permission is prohibited.
 Personal and professional use is allowed.
 
@@ -181,5 +181,6 @@ Simplicity, clarity, efficiency.
 - Gumroad: https://palks.gumroad.com  
 - Discord: https://discord.gg/kzrSyThyZ7  
 - Twitter (X): https://x.com/PalksStudio  
-- Itch: http://palks-studio.itch.io  
+- Itch.io: http://palks-studio.itch.io  
 - Ko-Fi: https://ko-fi.com/palksstudio
+
