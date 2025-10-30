@@ -120,7 +120,7 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 
 **Version complète disponible ici**
 - Gumroad : https://palks.gumroad.com  
-- Itch : http://palks-studio.itch.io  
+- Itch.io : http://palks-studio.itch.io  
 - Ko-Fi : https://ko-fi.com/palksstudio
 
 ### Important — Comportement des scripts (version complète uniquement)
@@ -162,16 +162,16 @@ Exception : les fichiers `.py` ne sont pas réindentés par cette action — ils
 ## Crédits et licence
 
 Ce pack est une création originale de **Palks Studio**.
-Toute revente, diffusion ou modification publique sans autorisation est interdite.
-Usage personnel et professionnel autorisé.
+Toute revente, redistribution ou modification publique sans autorisation préalable est strictement interdite.
+L’usage personnel et professionnel est autorisé.
 
 **Palks Studio**
-Créateur d’outils utiles et autonomes :  scripts, templates et bases prêtes à l’emploi.
+Créateur d’outils utiles et autonomes : scripts, templates et bases prêtes à l’emploi.
 Simplicité, clarté, efficacité.
 
 - GitHub : https://github.com/Palks-Studio  
-- Gumroad : https://palks.gumroad.com  
+- Gumroad: https://palks.gumroad.com  
 - Discord : https://discord.gg/kzrSyThyZ7  
 - Twitter (X) : https://x.com/PalksStudio  
-- Itch : http://palks-studio.itch.io  
+- Itch.io : http://palks-studio.itch.io  
 - Ko-Fi : https://ko-fi.com/palksstudio
