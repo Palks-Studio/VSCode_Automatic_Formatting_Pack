@@ -126,9 +126,9 @@ The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are int
   - before/after examples, demo videos, Discord support  
 
 **Full version available here**
-https://palks.gumroad.com/  
-https://ko-fi.com/palksstudio  
-http://palks-studio.itch.io/
+- https://palks.gumroad.com/  
+- https://ko-fi.com/palksstudio  
+- http://palks-studio.itch.io/
 
 
 ### Important — Script Behavior (Full Version Only)
