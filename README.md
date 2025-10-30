@@ -126,9 +126,9 @@ The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are int
   - before/after examples, demo videos, Discord support  
 
 **Full version available here**
-- https://palks.gumroad.com/  
-- https://ko-fi.com/palksstudio  
-- http://palks-studio.itch.io/
+- Gumroad: https://palks.gumroad.com/  
+- Ko-Fi: https://ko-fi.com/palksstudio  
+- Itch: http://palks-studio.itch.io/
 
 
 ### Important — Script Behavior (Full Version Only)
@@ -180,5 +180,5 @@ Simplicity, clarity, efficiency.
 - Gumroad: https://palks.gumroad.com/  
 - Discord: https://discord.gg/kzrSyThyZ7  
 - Twitter (X): https://x.com/PalksStudio  
-- Itch.io: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io/  
 - Ko-Fi: https://ko-fi.com/palksstudio
