@@ -120,7 +120,7 @@ Les fichiers `.mp4` présents dans ce dossier (convert_lf.mp4, indent_clean.mp4,
 
 **Version complète disponible ici**
 - Gumroad: https://palks.gumroad.com/  
-- Itch.io: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io/  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ### Important — Comportement des scripts (version complète uniquement)
