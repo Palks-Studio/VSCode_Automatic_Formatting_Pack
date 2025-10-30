@@ -39,6 +39,7 @@ What this pack does:
 - Normalizes indentation, margins, line endings (CRLF → LF), and UTF-8 encoding  
 
 - Adds useful shortcuts and VS Code tasks:  
+
   - **Alt + R** → Re-indent the entire file (or a selected block) instantly  
     *(Tip: press **Ctrl + A** first to select all before reindenting)*  
   - **Alt + M** → Toggle minimap visibility  
@@ -126,9 +127,9 @@ The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are int
   - before/after examples, demo videos, Discord support  
 
 **Full version available here**
-- Gumroad: https://palks.gumroad.com/  
+- Gumroad: https://palks.gumroad.com  
 - Ko-Fi: https://ko-fi.com/palksstudio  
-- Itch: http://palks-studio.itch.io/
+- Itch: http://palks-studio.itch.io
 
 
 ### Important — Script Behavior (Full Version Only)
@@ -177,8 +178,8 @@ Creator of useful and self-contained tools: scripts, templates and ready-to-use 
 Simplicity, clarity, efficiency.
 
 - GitHub: https://github.com/Palks-Studio  
-- Gumroad: https://palks.gumroad.com/  
+- Gumroad: https://palks.gumroad.com  
 - Discord: https://discord.gg/kzrSyThyZ7  
 - Twitter (X): https://x.com/PalksStudio  
-- Itch: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io  
 - Ko-Fi: https://ko-fi.com/palksstudio
